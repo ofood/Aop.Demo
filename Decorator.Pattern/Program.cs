@@ -19,7 +19,7 @@ namespace Decorator.Pattern
             //Console.WriteLine($"{drink.Description}:{drink.cost()}");
             drink = new Sugar(drink);
             Console.WriteLine($"{drink.Description}:{drink.cost()}");
-            Console.WriteLine("测试git");
+            Console.WriteLine("测试git1");
             Console.ReadKey();
             
         }
